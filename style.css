@@ -1,0 +1,348 @@
+body {
+    font-family: sans-serif;
+}
+header {
+    position: relative;
+    height: 150px;
+    top: 70px;
+    width: 100%;
+    background-image:linear-gradient( to bottom right, white, red, black) ;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+    left: 88px;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+nav{
+    position: absolute;
+    width: 50%;
+    left: 300px;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  }
+
+nav.logo{
+    text-decoration: none;
+    font-size:20px ;
+    color:black;
+    text-align:center;
+}
+
+.nav-link:first-child{
+       color:white;
+}
+
+.nav-link:hover:first-child{
+       color:black;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.2s easy-in;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 30px;
+    color: #1E1E1E;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: #FFC700;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    width: 50px;
+    text-align: left;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575757;
+}
+.footer-img{
+    width: 50px;
+    height: 50px;
+    margin-height: 3%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+
+    color: #575757;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+
+
+main {
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+
+.info-img{
+    position: absolute;
+    width: 255px;
+    height: 170px;
+    left: 57%;
+    
+}
+.info-div{
+    position: relative;
+    left: 5%;
+    width: 50%;
+}
+
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    color: #575757;
+    width: 90%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+.menu-butt{
+   background: #FFFFFF;
+    border: 1px solid #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFC700;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+   
+}
+.menu-butt:hover{
+    background: #FFC700;
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+.car-1 img{
+    height:150px;
+    widht:150px;
+}
+
+.car-2 img{
+    height:150px;
+    widht:150px;
+}
+
+.car-3 img{
+    height:150px;
+    widht:150px;
+}
+.car {
+    display :inline-block;
+
+}
+.cars{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+p {
+    font-size: small;
+}
+
+.Rezensionen-div img{
+width: 30px;
+height: 30px;
+border-radius:40%
+margin :111%;
+}
+
+.Rezensionen-div{
+
+
+}
+
+main h1 {
+    text-align: center;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+}
+.about-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://i.obozrevatel.com/news/2023/12/28/tesla-model-y.jpg?size=1944x924);
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 40%;
+    height: 273px;
+    left: 87px;
+    top: 187px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.loader-2{
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 220px;
+  height: 220px;
+  animation: spin 5s ease-in infinite;
+}
+.circle-1{
+position: absolute;
+left: 45%;
+top: 10%;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+background-color:rgb(9, 96, 247) ;
+animation: size 1s ease-in infinite;
+}
+.circle-2{
+position: absolute;
+left: 10%;
+top: 35%;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+background-color:rgb(255, 0, 0);
+animation: size 1s ease-in infinite;
+}
+.circle-3{
+position: absolute;
+right: 10%;
+top: 35%;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+background-color:rgb(102, 48, 0);
+animation: size 1s ease-in infinite;
+}
+.circle-4{
+position: absolute;
+right: 25%;
+top: 75%;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+background-color:rgba(0, 0, 0, 0.952);
+animation: size 1s ease-in infinite;
+}
+.circle-5{
+position: absolute;
+left: 25%;
+top: 75%;
+width: 20%;
+height: 20%;
+border-radius: 50%;
+background-color:rgb(107, 148, 202);
+animation: size 1s ease-in infinite;
+} 
+@keyframes spin {
+    0%, 15% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+@keyframes size {
+    0%, 15% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    70% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    90%, 100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+ 
+
+
